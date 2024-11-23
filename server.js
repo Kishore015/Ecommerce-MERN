@@ -22,6 +22,7 @@ mongoose.connect('mongodb://localhost:27017/flipkart-clone',{
 // })
 
 // Routers from routes folder
+
 const userRoutes = require('./routes/user');
 const productRoutes = require('./routes/products');
 const orderRoutes = require('./routes/order');
